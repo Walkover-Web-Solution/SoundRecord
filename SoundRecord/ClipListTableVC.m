@@ -1,11 +1,3 @@
-//
-//  ClipListTableVC.m
-//  SoundRecord
-//
-//  Created by Kadamb on 7/6/15.
-//  Copyright (c) 2015 Admin. All rights reserved.
-//
-
 #import "ClipListTableVC.h"
 
 
@@ -20,13 +12,10 @@
 {
     [super viewDidLoad];
     NSLog(@"Name : %@",tempName);
-    //NSLog(@"total rows = %lu",(unsigned long)arrTableData.count);
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
